@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+  /*   gap: 30%; */
+    max-width: 100%;
+}
+
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+
+header div i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+header nav {
+    display:none;
+    position: absolute;
+    z-index: 999;
+}
+
+header nav ul li{
+    list-style-type: none;
+    background-color: rgb(107, 103, 104);
+    padding: 1rem;
+}
+
+header nav ul li:hover{
+    background-color: white;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+.drop-down:hover nav{
+    display: block;
+}
+
+header p{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3rem;
+    color: rgb(179, 59, 79);
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+}
+
+.icons a{
+    color: black;
+}
+
+.icons a:visited{
+    color: black;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner img{
+    max-width: 33.3%;
+    height: auto;
+}
+
+.banner p{
+    position: absolute;
+    color: rgb(179, 59, 79);
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.categories div{
+    width: 30%;
+    height: auto;
+}
+
+.categories div img{
+    max-width: 100%;
+    height: 20vh;
+}
+
+
+
+
+
+
+
